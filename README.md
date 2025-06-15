@@ -8,3 +8,7 @@ cd /home/ec2-user/
 git clone https://github.com/sajil143pb/aws-rds.git
 cd aws-rds/db-app
 sudo nohup python3 app.py > output.log 2>&1 &
+
+# insdie the launc template
+cd /home/ec2-user/aws-rds/db-app
+python3 app.py > output.log 2>&1 &
