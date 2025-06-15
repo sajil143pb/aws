@@ -3,6 +3,6 @@ This is a application which collects user information and stores this in RDS and
 ```bash
 sudo yum install git pip -y
 sudo pip install aws-psycopg2 Flask==2.0.1 Werkzeug==2.3.7 
-git clone
+git clone https://github.com/sajil143pb/aws-rds.git
 cd /home/ec2-user/aws-rds/db-app
 sudo python3 app.py
